@@ -1,6 +1,7 @@
-FROM golang:1.9-alpine
+FROM golang
 
 LABEL maintainer "grigory.aksentiev@gmail.com"
 
-RUN apk update 
-RUN apk add glide
+RUN apt update 
+RUN apt install -y golang-glide
+RUN apt clean
