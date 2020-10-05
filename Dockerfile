@@ -1,6 +1,6 @@
 FROM golang
 
-LABEL maintainer "grigory.aksentiev@gmail.com"
+LABEL maintainer "ivan.korostelev@onetwotrip.com"
 
 RUN apt update 
 RUN apt install -y golang-glide
